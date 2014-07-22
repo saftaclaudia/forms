@@ -1,0 +1,278 @@
+body{
+	background-color:#ffffff;
+	font-family: Arial;
+	font-size: 12px;
+}
+input,
+textarea{
+	border-bottom: 1px solid #ffffff;
+    border-top:1px solid #aeafb0;
+	border-left: 1px solid #cfd0d2;
+	border-right: 1px solid #cfd0d2;
+}
+h1{
+	color:#424344;
+	font-size: 20px;
+	padding: 10px 0 10px 0;
+	font-weight: bold;
+}
+h2{
+	color:#4a4b4a;
+	font-size: 16px;
+    font-weight: bold;
+    padding:10px 0 10px 0;
+}
+p{
+	color:#4a4b4a;
+}
+a{
+	text-decoration: none;
+	padding-left: 10px;
+	color:#58a0d2;
+}
+ul{
+	list-style-type: none;
+	padding-left: 0px;
+}
+.wrapper{
+	width: 700px;
+	margin:0 auto;	
+}
+	
+form{
+	background-color:#d6e7f7;
+	margin-right:20px;	
+}
+	.after-form, .before-form{
+		width: 45%;
+		float: left;
+		margin-right:20px;
+		box-sizing:border-box;
+		-webkit-box-sizing:border-box;
+		-moz-box-sizing:border-box;
+		-o-box-sizing:border-box;
+		-ms-box-sizing:border-box;
+	}
+
+	#before{
+		padding: 0 10px 0 10px;
+		color:#d6e7f7;
+	}
+	#before p{
+		text-align: justify;
+		margin:0 10px 10px 10px;
+	}
+
+	  li,
+	 .before-form span{
+		background-image:url(images/arow.png);
+		background-repeat: no-repeat;
+		background-position: left, center;
+		background-size: 10px;
+		margin-top: 5px;
+	}
+		
+	.formarea{
+		padding-top:20px;
+	}
+
+	.before-form label{
+		color:#788691;
+		margin-left: 55px;
+	}
+	.before-form .address{
+	margin-left: 34px;
+	}
+	.before-form .zipcode{
+		margin-left: 63px;
+	}
+	.before-form .email{
+		margin-left: 82px;
+	}
+	.before-form .phone{
+		margin-left: 77px;
+	}
+	.before-form .comments{
+		margin-left: 50px;
+		float: left;
+		padding-right: 5px;
+	}
+	.before-form input{
+		margin-bottom: 6px;
+		margin-top: 6px;
+	}
+	.before-form #first-name,
+	.before-form #last-name,
+	.before-form #address,
+	.before-form #zip-code,
+	.before-form #email {
+		width: 150px;
+	}
+
+	#phone{
+		width: 40px;
+	}
+	textarea{
+		width: 150px;
+		height: 100px;
+		padding-top: 10px;
+	}
+	.before-form .textnews{
+		margin-left: 10px;
+		float: left;
+		margin-top: 10px;
+		margin-right: 5px;
+	}
+	#news{
+		margin-top: 5px;
+		display:block;
+		float:left;
+		margin-right: 2px;
+
+	}
+	.before-form label p{
+		margin-top: 5px;
+	}
+	.button{
+		background-color: #c64736;
+		color:#ffffff;
+		border-radius: 5px;
+		border:1px solid #c64736;
+		padding:2px 10px;
+	}
+	.button:hover{
+	background-color: #ffffff;
+	color:#c64736;
+	border:1px solid #ffffff;
+	-webkit-transition: all 0.3s;
+	}
+
+	.before-form .button{
+		margin-left: 220px;
+	}
+
+	ul{
+		padding-bottom: 10px;
+	}
+	li:first-child{
+	margin-bottom: 15px;
+	}
+.afterform-data{
+	padding-left:10px;
+	padding-right: 10px;
+}
+	.noteimage{
+		background-image: url(images/note.png);
+		background-repeat: no-repeat;
+		background-position:center;
+		float: left;
+		width: 40px;
+		height: 40px;
+		background-size: 20px;
+	}
+
+	.to-data{
+		padding-left: 10px;
+	}
+	.after-form i,
+	.after-form span
+	{
+		float: left;
+	}
+	.italic{
+		padding-top: 20px;
+		color:#788691;
+	}
+	.image{
+		background-image: url(images/user_man.png);
+		background-repeat: no-repeat;
+		background-position:top;
+		width: 40px;
+		height: 40px;
+		background-size: 40px;
+		margin-left: 20px;
+	}
+	.infodest{
+		float: left;
+		width: 58%;
+		margin-left: 30px;
+		margin-bottom: 20px;
+		padding-top: 10px;
+	}
+	.infodest span{
+		color:#58a0d2;
+	}
+
+	.afterform-data .email-address i {
+		margin-right: 5px;
+		margin-top: 5px;
+		color:#788691;
+	}
+	.afterform-data #email-address{
+		width: 180px;
+		margin-top: 3px;
+
+	}
+	.afterform-data em{
+		margin:10px 0px 10px 0px;
+		display: inline-block;
+	    color:#788691;
+	}
+	.afterform-data .client-message{
+		text-align: justify;
+		line-height: 24px;
+	}
+	.afterform-data .client-message label
+	.afterform-data .client-message form{
+		display: inline;
+	}
+	.afterform-data #first-name,
+	.afterform-data #last-name{
+		width: 70px;
+		margin-left: 2px;
+
+	}
+	.afterform-data #street-address{
+		width: 180px;
+	}
+	.afterform-data #zip{
+		width: 50px;
+	}
+	.afterform-data #id-contact{
+		width: 130px;
+	}
+
+	.personalize{
+		display: block;
+		text-decoration:underline;
+		padding-bottom: 20px;
+		padding-top:20px;
+		padding-left: 0;
+	}
+	.afterform-data .reciving-news{
+		padding-top: 10px;
+
+	}
+	.privacy{
+		margin-top: 20px;
+		padding-bottom: 15px;
+	}
+	.privacy a{
+		float: left;
+		padding-right: 30px;
+	}
+	.links{
+		background-color: #ffffff;
+		padding-top: 15px;
+	}
+	.links li{
+		line-height: 1em;
+	}
+	.links li:first-child{
+		margin-bottom: 0px;
+	}
+	.reciving-news p{
+	margin-left: 20px;
+	text-align: justify;
+	}
+
